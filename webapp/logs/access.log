@@ -1,0 +1,315 @@
+2025-07-20 21:46:23,779 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-07-20 21:46:23,779 - werkzeug - INFO -  * Running on http://172.17.0.2:5000/ (Press CTRL+C to quit)
+2025-07-20 21:46:23,782 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 21:46:23,928 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 21:46:23,931 - werkzeug - INFO -  * Debugger PIN: 858-338-615
+2025-07-20 21:48:46,964 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:48:46,967 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:48:46] "GET / HTTP/1.1" 200 -
+2025-07-20 21:48:47,046 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:48:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-20 21:49:01,735 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:01,736 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:01] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:01,737 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:01,738 - __main__ - INFO - Login attempt from 172.17.0.1 - User: ' OR '1'='1
+2025-07-20 21:49:01,739 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:01] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:01,739 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:01] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:02,242 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:02,243 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:02] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:02,504 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:02,505 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:02] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:02,743 - __main__ - INFO - Login attempt from 172.17.0.1 - User: '; DROP TABLE users; --
+2025-07-20 21:49:02,743 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:02] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:02,746 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:02,747 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:02] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:03,250 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:03,251 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:03] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:03,301 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:03,302 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:03] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:03,746 - __main__ - INFO - Login attempt from 172.17.0.1 - User: ' UNION SELECT * FROM users --
+2025-07-20 21:49:03,747 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:03] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:03,753 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:03,754 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:03] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:04,257 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:04,258 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:04] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:04,357 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:04,357 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:04] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:04,762 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:04,762 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:04] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:05,266 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:05,266 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:05] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:05,668 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:05,669 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:05] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:05,770 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:05,771 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:05] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:06,274 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:06,275 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:06] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:06,758 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:06,758 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:06] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:06,778 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:06,779 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:06] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:07,282 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:07,282 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:07] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:07,786 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:07,787 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:07] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:08,212 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:08,213 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:08] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:08,290 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:08,291 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:08] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:08,794 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:08,795 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:08] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:09,021 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:09,022 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:09] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:09,298 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:09,299 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:09] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:09,802 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:09,803 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:09] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:10,306 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:10,307 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:10] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:10,811 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:10,811 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:10] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:10,834 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:10,837 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:10] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:11,314 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:11,315 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:11] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:11,394 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:11,395 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:11] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:11,818 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:11,819 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:11] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:12,322 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:12,323 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:12] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:12,826 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:12,827 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:12] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:13,036 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:13,036 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:13] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:13,330 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:13,330 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:13] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:13,834 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:13,839 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:13] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:14,175 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:14,176 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:14] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:14,345 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:14,345 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:14] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:14,849 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:14,849 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:14] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:15,170 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:15,171 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:15] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:15,352 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:15,353 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:15] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:15,857 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:15,920 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:15] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:16,424 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:16,425 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:16] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:16,602 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:16,603 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:16] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:16,928 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:16,929 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:16] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:17,432 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:17,433 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:17] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:17,936 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:17,936 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:17] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:18,077 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:18,078 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:18] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:18,439 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:18,440 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:18] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:18,943 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:18,944 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:18] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:19,447 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:19,448 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:19] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:19,455 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:19,456 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:19] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:19,951 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:19,952 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:19] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:20,370 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:20,371 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:20] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:20,456 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:20,456 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:20] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:20,959 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:20,960 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:20] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:21,332 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:21,332 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:21] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:21,464 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:21,467 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:21] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:21,971 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:21,972 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:21] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:22,327 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:22,328 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:22] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:22,475 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:22,476 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:22] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:22,979 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:22,979 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:22] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:23,127 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:23,127 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:23] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:23,483 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:23,483 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:23] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:23,986 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:23,987 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:23] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:24,335 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:24,335 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:24] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:24,490 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:24,490 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:24] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:24,944 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:24,945 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:24] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:24,993 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:24,994 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:24] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:25,497 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:25,545 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:25] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:26,049 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:26,049 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:26] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:26,553 - __main__ - INFO - Login attempt from 172.17.0.1 - User: admin
+2025-07-20 21:49:26,553 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:26] "POST /login HTTP/1.1" 200 -
+2025-07-20 21:49:26,711 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:26,711 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:26] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:27,659 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:27,659 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:27] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:29,592 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:29,592 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:29] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:30,362 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:30,363 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:30] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:30,881 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:30,882 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:30] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:32,188 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:32,189 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:32] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:33,701 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:33,702 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:33] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:34,537 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:34,538 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:34] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:36,403 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:36,404 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:36] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:37,546 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:37,547 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:37] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:38,859 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:38,860 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:38] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:39,890 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:39,890 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:39] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:40,983 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:40,984 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:40] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:41,600 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:41,600 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:41] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:43,051 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:43,051 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:43] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:44,623 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:44,624 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:44] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:45,489 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:45,490 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:45] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:46,269 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:46,270 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:46] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:47,568 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:47,569 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:47] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:48,971 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:48,972 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:48] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:50,885 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:50,886 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:50] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:51,489 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:51,490 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:51] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:52,185 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:52,186 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:52] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:53,393 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:53,394 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:53] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:55,260 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:55,261 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:55] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:56,288 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:56,289 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:56] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:49:57,096 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:49:57,097 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:57] "GET / HTTP/1.1" 200 -
+2025-07-20 21:49:58,772 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:49:58,773 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:49:58] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:00,407 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:00,408 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:00] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:02,073 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:02,073 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:02] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:02,777 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:02,778 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:02] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:04,412 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:04,412 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:04] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:05,115 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:05,116 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:05] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:05,763 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:05,763 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:05] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:06,726 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:06,727 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:06] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:08,610 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:08,611 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:08] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:10,049 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:10,050 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:10] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:11,242 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:11,242 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:11] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:13,000 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:13,001 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:13] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:13,520 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:13,520 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:13] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:14,624 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:14,625 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:14] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:16,334 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:16,335 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:16] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:18,227 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:18,228 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:18] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:20,209 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:20,209 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:20] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:22,152 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:22,153 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:22] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:23,697 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:23,698 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:23] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:24,697 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:24,697 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:24] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:25,758 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:25,759 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:25] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:26,735 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:26,735 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:26] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:28,589 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:28,590 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:28] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:30,489 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:30,490 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:30] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:32,227 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:32,228 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:32] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:33,241 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:33,242 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:33] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:34,867 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:34,867 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:34] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:36,079 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:36,080 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:36] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:36,683 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:36,684 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:36] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:37,945 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:37,946 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:37] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:39,798 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:39,798 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:39] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:40,386 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:40,387 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:40] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:41,815 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:41,816 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:41] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:42,496 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:42,497 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:42] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:43,549 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:43,549 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:43] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:44,751 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:44,751 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:44] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:46,526 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:46,527 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:46] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:47,956 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:47,956 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:47] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:48,633 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:48,634 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:48] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:50,612 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:50,612 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:50] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:52,095 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:52,096 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:52] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:52,708 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:52,709 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:52] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:54,020 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:54,025 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:54] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:54,612 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:54,613 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:54] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:55,987 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:55,988 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:55] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:57,520 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:50:57,521 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:57] "GET / HTTP/1.1" 200 -
+2025-07-20 21:50:58,644 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:58,648 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:58] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:50:59,984 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:50:59,985 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:50:59] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:51:01,028 - __main__ - INFO - Index accessed from 172.17.0.1
+2025-07-20 21:51:01,101 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:51:01] "GET / HTTP/1.1" 200 -
+2025-07-20 21:51:02,740 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:51:02,740 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:51:02] "GET /api/data HTTP/1.1" 200 -
+2025-07-20 21:51:03,399 - __main__ - INFO - API data accessed from 172.17.0.1
+2025-07-20 21:51:03,400 - werkzeug - INFO - 172.17.0.1 - - [20/Jul/2025 21:51:03] "GET /api/data HTTP/1.1" 200 -
