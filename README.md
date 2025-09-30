@@ -2,13 +2,18 @@
 
 
 ## Agent modules
-
-- Log collector: agent อ่าน log จากใน OS ต่างๆ
+![alt text](image-7.png)
+- Active Response: agent จะ automate response ,custome response
+- Configuration assessment: agent จะคอย scan ระบบอย่างต่อเนื่อง ใช้มาตรฐานจาก CIS benchmarks ,ทำ custom policie ได้
+- Log collector: agent อ่าน log จากใน OS ต่างๆ ,Rules and decoders ????
 - Command execution: agent รัน command เป็นระยะๆเพื่อสื่อสารกับ Wazuh manager
 - File integrity monitoring (FIM):agent ส่ง report เมื่อ files are created, deleted, or modified
 
+- Malware detection: agent ใช้ non-signature-based approach ในการ detect สิ่งผิดปกติ,rootkit 
+  
+- Container security monitoring:
+- Cloud security monitoring:
 
-![alt text](image-6.png)
 
 
 
