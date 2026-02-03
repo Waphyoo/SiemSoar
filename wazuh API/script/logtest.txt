@@ -1,0 +1,193 @@
+
+[+] Authentication สำเร็จ!
+
+[*] กำลังดึงข้อมูล rules...
+{
+  "data": {
+    "affected_items": [
+      {
+        "filename": "0017-wazuh-api_rules.xml",
+        "relative_dirname": "ruleset/rules",
+        "id": 425,
+        "level": 7,
+        "status": "enabled",
+        "details": {
+          "if_sid": "400,410",
+          "uri": {
+            "pattern": "/security/user/authenticate"
+          }
+        },
+        "pci_dss": [],
+        "gpg13": [],
+        "gdpr": [],
+        "hipaa": [],
+        "nist_800_53": [],
+        "tsc": [],
+        "mitre": [],
+        "groups": [
+          "wazuh_api"
+        ],
+        "description": "Authentication Attempt."
+      }
+    ],
+    "total_affected_items": 289,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected rules were returned",
+  "error": 0
+}
+
+[*] กำลังดึงรายการไฟล์ rules...
+{
+  "data": {
+    "affected_items": [
+      {
+        "filename": "custom_rules_example.xml",
+        "relative_dirname": "etc/rules",
+        "status": "enabled"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All rule files were returned",
+  "error": 0
+}
+
+[*] กำลังดึงเนื้อหาไฟล์ rule: custom_rules_example.xml...
+{
+  "data": {
+    "affected_items": [
+      {
+        "group": {
+          "@name": "custom_rules_example",
+          "rule": [
+            {
+              "@id": "100014",
+              "@level": "0",
+              "program_name": "4example",
+              "description": "User logged - 4example program"
+            },
+            {
+              "@id": "100013",
+              "@level": "0",
+              "program_name": "3example",
+              "description": "User logged - 3example program"
+            },
+            {
+              "@id": "100012",
+              "@level": "0",
+              "program_name": "2example",
+              "description": "User logged - 2example program"
+            },
+            {
+              "@id": "100010",
+              "@level": "0",
+              "program_name": "example",
+              "description": "User logged - example program"
+            }
+          ]
+        }
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Selected rule was returned",
+  "error": 0
+}
+
+[*] กำลังดึงเนื้อหาไฟล์ rule: custom_rules_example.xml...
+<group name="custom_rules_example">
+  <!-- Rule เฉพาะเจาะจงกว่าต้องมาก่อน -->
+  <rule id="100014" level="0">
+    <program_name>4example</program_name>
+    <description>User logged - 4example program</description>
+  </rule>
+
+  <!-- Rule เฉพาะเจาะจงกว่าต้องมาก่อน -->
+  <rule id="100013" level="0">
+    <program_name>3example</program_name>
+    <description>User logged - 3example program</description>
+  </rule>
+
+  <!-- Rule เฉพาะเจาะจงกว่าต้องมาก่อน -->
+  <rule id="100012" level="0">
+    <program_name>2example</program_name>
+    <description>User logged - 2example program</description>
+  </rule>
+
+  <!-- Rule ทั่วไปมาทีหลัง -->
+  <rule id="100010" level="0">
+    <program_name>example</program_name>
+    <description>User logged - example program</description>
+  </rule>
+</group>
+
+[*] กำลังอัปเดตไฟล์ rule: custom_rules_example.xml...
+{
+  "data": {
+    "affected_items": [],
+    "total_affected_items": 0,
+    "total_failed_items": 1,
+    "failed_items": [
+      {
+        "error": {
+          "code": 1113,
+          "message": "XML syntax error",
+          "remediation": "Please, ensure file content has correct XML"
+        },
+        "id": [
+          "etc/rules/custom_rules_example.xml"
+        ]
+      }
+    ]
+  },
+  "message": "Could not upload rule",
+  "error": 1
+}
+
+[*] กำลังทดสอบ log event...
+{
+  "error": 0,
+  "data": {
+    "messages": [
+      "INFO: (7202): Session initialized with token 'a552da93'"
+    ],
+    "token": "a552da93",
+    "output": {
+      "timestamp": "2026-01-31T16:32:37.665000Z",
+      "rule": {
+        "description": "User logged - 2example program",
+        "id": "100012",
+        "firedtimes": 1,
+        "mail": false,
+        "groups": [
+          "custom_rules_example"
+        ],
+        "level": 0
+      },
+      "agent": {
+        "id": "000",
+        "name": "wazuh.manager"
+      },
+      "manager": {
+        "name": "wazuh.manager"
+      },
+      "id": "1769877157.10652",
+      "full_log": "Dec 25 20:45:02 MyHost 2example[12345]: User 'admin' logged from '192.168.1.100'",
+      "predecoder": {
+        "program_name": "2example",
+        "timestamp": "Dec 25 20:45:02",
+        "hostname": "MyHost"
+      },
+      "decoder": {},
+      "location": "logtest"
+    },
+    "alert": false,
+    "codemsg": 0
+  }
+}
