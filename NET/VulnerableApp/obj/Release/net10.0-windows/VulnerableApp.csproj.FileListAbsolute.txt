@@ -1,0 +1,5 @@
+C:\Users\nonny\Desktop\SiemSoar\NET\VulnerableApp\obj\Release\net10.0-windows\VulnerableApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nonny\Desktop\SiemSoar\NET\VulnerableApp\obj\Release\net10.0-windows\VulnerableApp.AssemblyInfoInputs.cache
+C:\Users\nonny\Desktop\SiemSoar\NET\VulnerableApp\obj\Release\net10.0-windows\VulnerableApp.AssemblyInfo.cs
+C:\Users\nonny\Desktop\SiemSoar\NET\VulnerableApp\obj\Release\net10.0-windows\VulnerableApp.csproj.CoreCompileInputs.cache
+C:\Users\nonny\Desktop\SiemSoar\NET\VulnerableApp\obj\Release\net10.0-windows\VulnerableApp.sourcelink.json
