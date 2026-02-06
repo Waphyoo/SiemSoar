@@ -1,0 +1,6 @@
+<group name="custom_rules_example,">
+  <rule id="100010" level="0">
+    <program_name>example</program_name>
+    <description>User logged</description>
+  </rule>
+</group>
