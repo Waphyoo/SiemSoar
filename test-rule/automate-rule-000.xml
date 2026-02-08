@@ -5,7 +5,7 @@
   </rule>
  
   <rule id="100021" level="0">
-    <program_name>example</program_name>
+    <program_name>1example</program_name>
     <description>User logged</description>
   </rule>
 

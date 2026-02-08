@@ -1,1 +1,12 @@
-<group name="custom_rules_example,">   <rule id="100010" level="0">     <program_name>1000000example</program_name>     <description>User logged</description>   </rule> </group>
+<group name="custom_rules_example,">
+  <rule id="100020" level="0">
+    <program_name>example</program_name>
+    <description>User logged</description>
+  </rule>
+ 
+  <rule id="100021" level="0">
+    <program_name>1example</program_name>
+    <description>User logged</description>
+  </rule>
+
+</group>

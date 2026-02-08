@@ -93,7 +93,7 @@ runas /user:wronguser cmd
 
     <!-- Directories to check  (perform all possible verifications) -->
     <directories>/etc,/usr/bin,/usr/sbin</directories>
-    <directories>/bin,/sbin,/boot</directories>
+    <directories>/bin,/sbin,/boot</directories> 
 ```
 ![alt text](image-4.png)
 
