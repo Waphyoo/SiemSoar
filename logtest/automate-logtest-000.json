@@ -1,0 +1,10 @@
+[
+    {
+    "rule id": "100010",
+    "event": "Dec 25 20:45:02 MyHost example[12345]: User 'admin' logged from '192.168.1.100'"
+    },
+    {
+    "rule id": "100010",
+    "event": "Dec 26 14:30:15 MyHost example[67890]: User 'guest' logged from '"
+    }
+]
