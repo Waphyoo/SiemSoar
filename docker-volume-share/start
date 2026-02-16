@@ -1,0 +1,78 @@
+#!/bin/bash
+
+#ai prompt: "เขียน bash script ที่ทำงานตามนี้
+#คือมันยากอะไรแค่
+# 1. Start ทุก service
+# 2. รอ Cloudflare URL  
+# 3. ใส่ URL ลง compose file โดยตรง
+# 4. Stop + Start แค่ n8n-main
+
+
+usage() {
+    echo "Usage: $0 [-f <compose-file>]"
+    echo "  -f  Docker Compose file (default: docker-compose.yml)"
+    exit 1
+}
+
+COMPOSE_FILE="docker-compose.yml"
+TIMEOUT=60
+
+while getopts ":f:h" opt; do
+    case $opt in
+        f) COMPOSE_FILE="$OPTARG" ;;
+        h) usage ;;
+        :) echo "[-] Option -$OPTARG requires an argument." >&2; usage ;;
+        \?) echo "[-] Unknown option: -$OPTARG" >&2; usage ;;
+    esac
+done
+
+[[ -f "$COMPOSE_FILE" ]] || { echo "[-] File not found: $COMPOSE_FILE" >&2; exit 1; }
+
+log()  { echo "$(date '+%F %T') [*] $*"; }
+ok()   { echo "$(date '+%F %T') [+] $*"; }
+fail() { echo "$(date '+%F %T') [-] $*" >&2; exit 1; }
+
+# ── 1. Start ทุก service ──────────────────────────────────────────
+log "Using compose file: $COMPOSE_FILE"
+log "Starting all services..."
+docker compose -f "$COMPOSE_FILE" up -d
+
+# ── 2. รอ Cloudflare URL ──────────────────────────────────────────
+log "Waiting for Cloudflare tunnel URL (timeout: ${TIMEOUT}s)..."
+
+CF_URL=""
+ELAPSED=0
+
+while [[ -z "$CF_URL" && $ELAPSED -lt $TIMEOUT ]]; do
+    CF_URL=$(
+        docker compose -f "$COMPOSE_FILE" logs cloudflared 2>/dev/null \
+        | grep -oP 'https://[a-z0-9-]+\.trycloudflare\.com' \
+        | tail -1 \
+        || true
+    )
+    if [[ -z "$CF_URL" ]]; then
+        sleep 2
+        ELAPSED=$((ELAPSED + 2))
+        log "Still waiting... (${ELAPSED}s)"
+    fi
+done
+
+[[ -z "$CF_URL" ]] && fail "Timed out waiting for Cloudflare URL after ${TIMEOUT}s"
+ok "Got Cloudflare URL: ${CF_URL}"
+
+# ── 3. ใส่ URL ลง compose file โดยตรง ────────────────────────────
+log "Updating WEBHOOK_URL in ${COMPOSE_FILE}..."
+sed -i "s|WEBHOOK_URL=.*|WEBHOOK_URL=${CF_URL}/|" "$COMPOSE_FILE"
+
+# ── 4. Stop + Start แค่ n8n-main ──────────────────────────────────
+log "Restarting n8n-main with new WEBHOOK_URL..."
+docker stop n8n-main
+docker rm n8n-main
+docker compose -f "$COMPOSE_FILE" up -d n8n
+
+ok "====================================================="
+ok "n8n is ready!"
+ok "  Compose file : $COMPOSE_FILE"
+ok "  Public URL   : ${CF_URL}"
+ok "  Webhook URL  : ${CF_URL}/"
+ok "====================================================="
